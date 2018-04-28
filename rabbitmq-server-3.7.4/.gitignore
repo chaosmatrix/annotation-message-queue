@@ -1,0 +1,36 @@
+*~
+.sw?
+.*.sw?
+*.beam
+*.coverdata
+MnesiaCore.*
+/.erlang.mk/
+/cover/
+/debug/
+/deps/
+/debug/
+/doc/
+/ebin/
+/etc/
+/logs/
+/plugins/
+/test/ct.cover.spec
+/test/config_schema_SUITE_data/schema/**
+/xrefr
+/escript
+rabbit.d
+
+# Generated documentation.
+docs/*.html
+
+# Dialyzer
+*.plt
+
+# Tracing tools
+*-ttb
+*.ti
+*.lz4*
+callgrind.out*
+callgraph.dot*
+
+PACKAGES/*
